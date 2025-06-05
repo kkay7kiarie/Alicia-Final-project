@@ -57,6 +57,9 @@ body {
     padding: 8rem 4rem 4rem;
     min-height: 80vh;
     background: linear-gradient(135deg, #fef9f5 0%, #fff5ee 100%);
+    position: relative;
+    z-index: 4;
+    box-sizing: content-box;
 }
 
 .hero-image-left, .hero-image-right {
@@ -380,7 +383,7 @@ body {
     background: #e55a2b;
 }
 
-.testimonial-card-one, .testimonial-card-two,.testimonial-card-three {
+.testimonial-card-one, .testimonial-card-two {
     flex: 1;
     background: white;
     padding: 2.5rem;
@@ -397,9 +400,12 @@ body {
 
 /* Partnerships Section */
 .partnerships-section {
-    padding: 6rem 4rem;
+    padding: 2rem 2rem;
     background: #fff;
     text-align: center;
+    width: 70%;
+    margin: 0 auto; /* Center horizontally */
+    border-radius: 10px; /* Rounded corners */
 }
 
 .partnerships-heading {
@@ -577,7 +583,7 @@ body {
 
 /* FAQ Section */
 .faq-section {
-    padding: 6rem 4rem;
+    padding: 5rem 3rem;
     background: #fef9f5;
 }
 
@@ -608,12 +614,13 @@ body {
 }
 
 .faq-image-wrapper {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .faq-image {
     width: 100%;
-    height: 250px;
+    height: 100%;
+    max-width: 400px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
