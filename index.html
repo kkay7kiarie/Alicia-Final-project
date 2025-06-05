@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNCRAFT MEDIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css_files/style.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="main-navigation">
+        <div class="nav-links-left">
+            <a href="#home-section">Home</a>
+            <a href="#about-section">About</a>
+            <a href="#services-section">Services</a>
+        </div>
+        <div class="company-logo">SIGNCRAFT MEDIA</div>
+        <div class="nav-links-right">
+            <a href="#track-package">Track Package</a>
+            <a href="#resources-section">Resources</a>
+            <a href="#contact-section">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Banner Section -->
+    <section class="hero-banner" id="home-section">
+        <div class="hero-image-left">
+            <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&h=400&fit=crop&crop=faces" alt="Delivery Service Professional" class="profile-image" />
+        </div>
+        <div class="hero-content-center">
+            <h1 class="main-heading"><strong>SIGNCRAFT MEDIA</strong></h1>
+            <p class="hero-tagline">Enhancing Your Delivery Experience.</p>
+            <p class="hero-description">
+                We're more than just couriers. 
+                We're your trusted delivery partner, 
+                committed to speed, care, and reliability 
+                every step of the way
+            </p>
+            <button class="cta-button-primary" onclick="scrollToSection('#about-section')">Get Started</button>
+        </div>
+        <div class="hero-image-right">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" alt="Package Delivery Service" class="delivery-image" />
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section" id="about-section">
+        <div class="content-wrapper">
+            <div class="text-content-block">
+                <p class="section-label">HOW IT WORKS</p>
+                <h2 class="section-heading">
+                    We transport packages securely and deliver it directly to the
+                    recipient's doorstep with real-time tracking and confirmation.
+                </h2>
+                <p class="section-description">
+                    Browse delivery options, book a pickup<br />
+                    and send your package fast<br />
+                    with trusted Express professionals.
+                </p>
+                <button class="secondary-button" onclick="scrollToSection('#contact-section')">Reach out to us</button>
+            </div>
+            <div class="image-content-block">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop" alt="Delivery Process Illustration" class="process-image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Introduction Section -->
+    <section class="services-intro-section" id="services-section">
+        <p class="section-label">SERVICES</p>
+        <h2 class="services-main-heading">
+            Your Express<br />
+            Delivery Partner
+        </h2>
+        <p class="services-description">
+            Discover reliable logistics for smooth,<br />
+            secure, and on-time deliveries.
+        </p>
+    </section>
+
+    <!-- Service Features Section -->
+    <section class="service-features-section">
+        <div class="features-container">
+            <div class="service-card-express">
+                <h3 class="service-card-title">
+                    Express &<br />
+                    Efficiency
+                </h3>
+                <p class="service-card-description">
+                    Guided delivery solutions and<br />
+                    stress-free logistics support.
+                </p>
+                <button class="service-card-button" onclick="scrollToSection('#contact-section')">Learn more</button>
+            </div>
+            <div class="service-card-delivery">
+                <h3 class="service-card-title">
+                    Direct-to-Door<br />
+                    Delivery
+                </h3>
+                <p class="service-card-description">
+                    Virtual and in person delivery<br />
+                    sessions with licensed<br />
+                    professionals.
+                </p>
+                <button class="service-card-button" onclick="scrollToSection('#contact-section')">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Support Section -->
+    <section class="delivery-support-section">
+        <div class="support-content-wrapper">
+            <div class="support-text-block">
+                <h2 class="support-heading">Delivery Support</h2>
+                <p class="support-description">
+                    Personalized guidance to help you streamline your shipments, reduce
+                    delivery stress, and ensure reliable service every time.<br /><br />
+
+                    Our courier experts work with you to build efficient, sustainable
+                    logistics routines that support smooth pickups, on-time drop-offs,
+                    and customer satisfaction.
+                </p>
+                <button class="support-button" onclick="scrollToSection('#contact-section')">Learn more</button>
+            </div>
+            <div class="support-image-block">
+                <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop" alt="Customer Support Team" class="support-image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="testimonials-wrapper">
+            <div class="testimonials-header">
+                <p class="section-label">TESTIMONIALS</p>
+                <h3 class="testimonials-title">What Our Clients Are Saying</h3>
+                <p class="testimonials-subtitle">
+                    Real stories from happy customers who trust our fast, reliable
+                    delivery services.
+                </p>
+                <button class="testimonial-nav-button" onclick="previousTestimonial()">&larr;</button>
+                <button class="testimonial-nav-button" onclick="nextTestimonial()">&rarr;</button>
+            </div>
+            <div class="testimonial-card-one">
+                <p class="testimonial-text">
+                    "Express made it so easy to send my package. The whole process was
+                    smooth, fast, and reliable I always know my deliveries are in safe
+                    hands!"<br /><br /><br />— Anna R., 32
+                </p>
+            </div>
+            <div class="testimonial-card-two">
+                <p class="testimonial-text">
+                    "I used to stress over sending important packages, but with Express,
+                    it's effortless. Their reliable service gives me peace of mind I
+                    finally feel in control of my deliveries."<br /><br /><br />
+                    — Mark S., 41
+                </p>
+            </div>
+            <div class="testimonial-card-three">
+                <p class="testimonial-text">
+                    "jbfdv,snvkjnkjsdfvss over sending important packages, but with Express,
+                    it's effortless. Their reliable service gives me peace of mind I
+                    finally feel in control of my deliveries."<br /><br /><br />
+                    — Mark S., 41
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership Section -->
+    <section class="partnerships-section">
+        <h2 class="partnerships-heading">Our Partnerships</h2>
+        <div class="partners-grid">
+            <div class="partner-item">
+                <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop" alt="Cargo Partner" class="partner-logo" />
+                <h5 class="partner-name">cargo</h5>
+            </div>
+            <div class="partner-item">
+                <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=100&h=100&fit=crop" alt="Psacam Partner" class="partner-logo" />
+                <h5 class="partner-name">psacam</h5>
+            </div>
+            <div class="partner-item">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100&h=100&fit=crop" alt="T.R.Ds Partner" class="partner-logo" />
+                <h5 class="partner-name">T.R.Ds</h5>
+            </div>
+            <div class="partner-item">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=100&h=100&fit=crop" alt="G.Bs Partner" class="partner-logo" />
+                <h5 class="partner-name">G.Bs</h5>
+            </div>
+            <div class="partner-item">
+                <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop" alt="Carz Partner" class="partner-logo" />
+                <h5 class="partner-name">Carz</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Introduction Section -->
+    <section class="resources-intro-section" id="resources-section">
+        <div class="resources-content">
+            <p class="section-label">EXPLORE & LEARN</p>
+            <h2 class="resources-heading">
+                Resources for Your<br />
+                Shipping Success
+            </h2>
+            <p class="resources-description">
+                Explore expert delivery tips, shipping guides,<br />
+                and tools to help you send with confidence.
+            </p>
+        </div>
+    </section>
+
+    <!-- Resource Cards Section -->
+    <section class="resource-cards-section">
+        <div class="resource-grid">
+            <div class="resource-card-articles">
+                <h3 class="resource-card-title">Articles & Guides</h3>
+                <p class="resource-card-description">
+                    Practical tips on shipping efficiency, smart packaging, and
+                    stress-free delivery solutions.
+                </p>
+                <button class="resource-card-button" onclick="scrollToSection('.community-section')">Explore</button>
+            </div>
+            <div class="resource-card-tips">
+                <h3 class="resource-card-title">Delivery Tips & Support</h3>
+                <p class="resource-card-description">
+                    Step-by-step guides and audio walkthroughs for smooth scheduling,
+                    safe packaging, and stress-free delivery.
+                </p>
+                <button class="resource-card-button" onclick="scrollToSection('.community-section')">Explore</button>
+            </div>
+            <div class="resource-card-webinars">
+                <h3 class="resource-card-title">Webinars & Workshops</h3>
+                <p class="resource-card-description">
+                    Live and recorded sessions with delivery experts on best practices,
+                    customer service, and logistics management.
+                </p>
+                <button class="resource-card-button" onclick="scrollToSection('.community-section')">Explore</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community-section">
+        <div class="community-wrapper">
+            <div class="community-content">
+                <p class="section-label">COMMUNITY</p>
+                <h2 class="community-heading">You're Not Alone on the Delivery Journey</h2>
+                <p class="community-description">
+                    Connect with other senders, share tips and experiences, and get
+                    support in a trusted, delivery-focused space.
+                </p>
+                <button class="community-button" onclick="scrollToSection('#contact-section')">Join the Community</button>
+            </div>
+            <div class="community-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop" alt="Community Members" class="community-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-wrapper">
+            <div class="faq-intro">
+                <p class="section-label">Require Help???</p>
+                <h2 class="faq-heading">
+                    Frequently<br />
+                    Asked Questions
+                </h2>
+                <p class="faq-description">
+                    Find answers to common questions about our express 
+                    delivery services, shipping policies, tracking, and more.
+                </p>
+                <div class="faq-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=250&fit=crop" alt="FAQ Support" class="faq-image">
+                </div>
+            </div>
+            <div class="faq-questions">
+                <div class="faq-item-first">
+                    <span class="faq-question">How do I book a delivery or pickup?</span>
+                    <span class="faq-answer">You can book directly through our website, mobile app, or by calling our customer service.</span>
+                    <button class="faq-toggle-button" onclick="toggleAnswer(this)">&#x25BC;</button>
+                </div>
+                <div class="faq-item">
+                    <span class="faq-question">Do you offer online booking or virtual services?</span>
+                    <span class="faq-answer">Yes, all our services can be booked online through our website or app.</span>
+                    <button class="faq-toggle-button" onclick="toggleAnswer(this)">&#x25BC;</button>
+                </div>
+                <div class="faq-item">
+                    <span class="faq-question">What's the difference between standard and express delivery?</span>
+                    <span class="faq-answer">Standard delivery is cost-effective with regular speed, while express delivery is faster and prioritized.</span>
+                    <button class="faq-toggle-button" onclick="toggleAnswer(this)">&#x25BC;</button>
+                </div>
+                <div class="faq-item">
+                    <span class="faq-question">Do I need a subscription to use your delivery services?</span>
+                    <span class="faq-answer">No subscription is required — you can use our services as needed.</span>
+                    <button class="faq-toggle-button" onclick="toggleAnswer(this)">&#x25BC;</button>
+                </div>
+                <div class="faq-item">
+                    <span class="faq-question">Can I change my delivery options if I'm not satisfied?</span>
+                    <span class="faq-answer">Yes, you can modify your delivery preferences before the shipment is finalized.</span>
+                    <button class="faq-toggle-button" onclick="toggleAnswer(this)">&#x25BC;</button>
+                </div>
+                <div class="faq-item">
+                    <span class="faq-question">Is my information and delivery history kept confidential with Express?</span>
+                    <span class="faq-answer">Yes, we protect your data and delivery history with strict confidentiality and security measures.</span>
+                    <button class="faq-toggle-button" onclick="toggleAnswer(this)">&#x25BC;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Introduction Section -->
+    <section class="contact-intro-section">
+        <div class="contact-intro-content">
+            <p class="section-label">GET IN TOUCH</p>
+            <h2 class="contact-intro-heading">We're Here to Help</h2>
+            <p class="contact-intro-description">
+                Whether you have questions, need help booking a delivery,<br />
+                or want to learn more reach out anytime. We're ready to<br />
+                support your shipping needs.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Details Section -->
+    <section class="contact-details-section" id="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3 class="contact-info-heading">Contact Details:</h3>
+                <p class="contact-email"><strong>Email:</strong> support@express.com</p>
+                <p class="contact-phone"><strong>Phone:</strong> +1 (123) 456-7890</p>
+                <p class="contact-address"><strong>Address:</strong> 123 Wellness Way, Calm City, CA 90210</p>
+                <div class="social-media-wrapper">
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=200&h=100&fit=crop" alt="Social Media Links" class="social-media-image">
+                </div>
+                <footer class="response-time">We typically respond within 12 hours of request.</footer>
+            </div>
+            <div class="contact-form-wrapper">
+                <h3 class="contact-form-heading">Send Us a Message</h3>
+                <div class="contact-form">
+                    <label for="user-email" class="form-label">Email</label>
+                    <input type="email" id="user-email" class="form-input" placeholder="Enter your email" required />
+                    <label for="user-message" class="form-label">Message</label>
+                    <textarea id="user-message" class="form-textarea" placeholder="Enter your message" required></textarea>
+                    <button type="submit" class="form-submit-button" onclick="sendMessage()">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-links-wrapper">
+                <div class="footer-nav-links">
+                    <a href="#about-section" class="footer-link">About</a>
+                    <a href="#services-section" class="footer-link">Services</a>
+                    <a href="#track-package" class="footer-link">Track Package</a>
+                    <a href="#resources-section" class="footer-link">Resources</a>
+                    <a href="#contact-section" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-social-links">
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-x-twitter"></i> X(formerly Twitter)
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </div>
+
+                <div class="footer-legal-links">
+                    <a href="#" class="footer-link">Terms Of Use</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+                <span class="copyright-text">© 2024 Express. All Rights Reserved.</span>
+            </div>
+            <div class="footer-cta-section">
+                <div class="footer-cta-content">
+                    <h3 class="footer-cta-heading">
+                        Find<br />
+                        Support,<br />
+                        Guidance,<br />
+                        and Balance.
+                    </h3>
+                    <button class="footer-cta-button" onclick="scrollToSection('#contact-section')">Find Support Now</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js_files/index.js"></script>
+</body>
+</html>
